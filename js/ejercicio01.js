@@ -1,6 +1,6 @@
 window.onload = inicio;
-const color = document.getElementById("color")
-const titulo = document.getElementById("titulo")
+const color = document.getElementsByTagName("input")[0]
+const titulo = document.getElementsByTagName("h1")[0]
 const boton = document.getElementById("boton")
 
 function inicio() {
